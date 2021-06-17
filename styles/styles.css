@@ -400,6 +400,7 @@ strong {
 }
 
 .about__partnership {
+  cursor: pointer;
   background-color: transparent;
   border: none;
   outline: none;
@@ -790,7 +791,7 @@ strong {
   }
 
   .modal__request .modal__content,
-  .modal__partnership .modal__content{
+  .modal__partnership .modal__content {
     border-radius: 12px 12px 0 0;
   }
 
