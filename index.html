@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/variables.css">
+    <link rel="stylesheet" type="text/css" href="./styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./styles/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <title>Самара, я привит!</title>
+</head>
+<body>
+    <header class="header container">
+        <h1 class="visually-hidden">Самара, я привит!</h1>
+        <img src="./images/logo.png"  class="header__logo" alt="логотип" />
+        <button class="header__burger"></button>
+        <ul class="header__menu menu">
+            <li class="menu__item"><a href="">Положение</a></li>
+            <li class="menu__item"><a href="">Партнеры</a></li>
+            <li class="menu__item"><a href="">Где привиться?</a></li>
+            <li class="menu__item"><a href="">Контакты</a></li>
+        </ul>
+    </header>
+    <section class="promo container">
+        <div class="promo__content">
+            <p class="promo__term">Сроки акции</p>
+            <div class="promo__date">с 01.07.2021 по 25.07.2021</div>
+            <h2 class="promo__title">И с вакциной <br> И с призом</h2>
+            <p class="promo__desc">
+                Акция для <strong>жителей Самары.</strong> <br />
+                <strong>Сделай прививку</strong> от Covid 19 и <strong>выйграй приз!</strong></p>
+        </div>
+        <img class="promo__image" src="./images/promo.svg" alt="промо" />
+        <img class="promo__image promo__image--mobile" src="./images/promo2.svg" alt="промо" />
+    </section>
+    <section class="steps container">
+        <h2 class="steps__title">Всего 3 шага</h2>
+        <ul class="steps__list list">
+            <li class="list__item list__item--vac">
+                <h3 class="list__title">Пройди вакцинацию</h3>
+                <p class="list__description">Сделай прививку в любом передвижном или стационарном медицинском пункте</p>
+            </li>
+            <li class="list__item list__item--action">
+                <h3 class="list__title">Зарегистрируйся в акции</h3>
+                <p class="list__description">Заполни анкету участника <a class="description__link">здесь</a></p>
+            </li>
+            <li class="list__item list__item--result">
+                <h3 class="list__title">Дождись результатов</h3>
+                <p class="list__description">Получи уведомление об итогах конкурса на твой почтовый адрес</p>
+            </li>
+        </ul>
+    </section>
+    <section class="prize container">
+        <div class="prize__content">
+            <h2 class="prize__title">Выиграй призы</h2>
+            <p class="prize__desc">Сделай прививку - защити себя от коронавируса. Получи шанс выиграть приз!</p>
+        </div>
+        <div class="prize__image-container">
+            <img class="prize__image" src="./images/column.svg" alt="Музыкальная колонка" />
+            <img class="prize__image" src="./images/headphones.svg" alt="Наушники" />
+            <img class="prize__image" src="./images/phone.svg" alt="Смартфон" />
+        </div>
+    </section>
+    <section class="sign container">
+        <img src="./images/sign.svg" alt="записаться" class="sign__image" />
+        <form class="sign__form form">
+            <h2 class="form__title">Участвовать</h2>
+            <input type="text" class="form__input" placeholder="ФИО" />
+            <input type="text" class="form__input" placeholder="Телефон" />
+            <input type="text" class="form__input" placeholder="Email" />
+            <input type="text" class="form__input" placeholder="СНИЛС" />
+            <div class="form__controls">
+                <button class="button form__button" type="button">Отправить</button>
+                <div class="form__checkbox-container">
+                    <input type="checkbox" id="checkbox" class="form__checkbox"/>
+                    <label>Согласие на <a class="form__agreement agreement" type="button">обработку персональных данных</a></label>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="partners">
+        <div class="container partners__container">
+            <h2 class="partners__title">Партнеры программы</h2>
+            <div class="partners__list">
+                <a href="href" class="partners__item">Гипермаркет Ашан</a>
+                <a href="href" class="partners__item">Гипермаркет Ашан</a>
+                <a href="href" class="partners__item">Леруа мерлен</a>
+                <a href="href" class="partners__item">Леруа мерлен</a>
+                <a href="href" class="partners__item">Строительная компания “древо”</a>
+                <a href="href" class="partners__item">Строительная компания “древо”</a>
+                <a href="href" class="partners__item">Axbit Group</a>
+                <a href="href" class="partners__item">Axbit Group</a>
+            </div>
+        </div>
+    </section>
+    <section class="about container">
+        <img src="./images/society.svg" alt="За информационное общество" class="about__image"/>
+        <div class="about__content">
+            <h2 class="about__title">О нас</h2>
+            <p class="about__desc">Создано в июле 2011 года. Занимается проектной деятельностью, основу которой составляют социально-ориентированные задачи.</p>
+            <button class="about__partnership">Как стать партнером?</button>
+            <ul class="about__info info">
+                <li class="info__item">Самарская региональная общественная организация «За информационное общество»  (СРОО «За информационное общество»)</li>
+                <li class="info__item">ИНН/КПП 6315990088/631501001</li>
+                <li class="info__item">ОГРН 1116300003401</li>
+                <li class="info__item"> Расчетный счет: 40703810103000</li>
+            </ul>
+            <ul class="about__stats list">
+                <div class="list__item list__item--projects">
+                    <h3>Реализовано проектов</h3>
+                </div>
+                <div class="list__item list__item--people">
+                    <h3>Задействованных людей в проектах</h3>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <img class="footer__logo" src="./images/axbitLogo.svg" alt="Аксбит" />
+        <button class="footer__item agreement">Согласие на обработку персональных данных</button>
+        <a class="footer__item footer__button">Посмотреть реквизиты</a>
+        <a href="tel:8482510984" class="footer__item footer__phone">(8482) 51-09-84</a>
+        <a href="mailto:covid@gmail.com" class="footer__item footer__email">covid@gmail.com</a>
+    </footer>
+    <div class="modal modal__agreement">
+        <div class="modal__content">
+            <button class="modal__close" type="button"></button>
+            <h2 class="modal__title">Согласие на обработку персональных данных</h2>
+            <p class="modal__paragraph">
+                Нажимая кнопку «Отправить» на сайте самара-я-привит.рф, я свободно, своей волей и в своем интересе становлюсь участником Розыгрыша подарков «Самара, я привит» на условиях и в соответствии с Положением о проведении на территории городского округа Самара акции «Самара, я привит!», утвержденным директором СРОО «За информационное общество» хх.06.2021 (ОГРН 1116300003401, ИНН 6315990088, Юридический адрес: 443001, г. Самара, ул. Ульяновская/Ярмарочная, д. 52/55; Фактический и почтовый адрес: 443001, г. Самара, ул. Ульяновская/Ярмарочная, д. 52/55 (далее - Розыгрыш, Организатор).
+            </p>
+            <p class="modal__paragraph">
+                Участием в Розыгрыше я, действуя своей волей и в своих интересах, в соответствии с требованиями Федерального закона от 27.07.2006 года № 152-ФЗ «О персональных данных» даю свое Согласие Организатору и третьим лицам (при условии соблюдения требований законодательства Российской Федерации об обеспечении конфиденциальности персональных данных и безопасности персональных данных при их обработке) на обработку ими (сбор, запись, систематизацию, накопление, хранение, подтверждение, уточнение, обновление, изменение), использование, распространение, предоставление, передачу (включая передачу на территории Российской Федерации и трансграничную передачу), обезличивание, блокирование и уничтожение Организатором и его контрагентами моих персональных данных, в т.ч. с использованием средств автоматизации и автоматизированных систем управления базами данных, иных программных средств, разработанных Организатором или по его поручению, а также на ручную, автоматизированную и смешанную обработку моих персональных данных, как с передачей по внутренней сети Организатора и его контрагентов, а также по сети Интернет, так и без таковой. Используемые способы обработки включают, в том числе (без ограничений), следующие: уточнение данных путем телефонной, почтовой связи или с помощью контакта через сеть Интернет.
+            </p>
+            <p class="modal__paragraph">
+                Настоящее Согласие дается мной на осуществление любых действий в отношении моих персональных данных, которые необходимы или желаемы для достижения указанных выше целей, в отношении любой информации, относящейся ко мне, включая следующую: фамилия, имя, отчество; номер мобильного телефона (в предусмотренных законодательством Российской Федерации, в частности, Налоговым кодексом Российской Федерации случаях - реквизиты документа, удостоверяющего личность (фамилия, имя, отчество; год, месяц, дата рождения номер паспорта гражданина Российской Федерации, дата его выдачи, наименование выдавшего органа, сведения о регистрации), а также ИНН и номер СНИЛС), предоставленные мной Организатору и его контрагентам и содержащиеся в документах, оформляемых мной. Адрес электронной почты и другие сведения могут быть предоставлены мной Организатору и его контрагентам по своему усмотрению.
+            </p>
+            <p class="modal__paragraph">
+                Обработка персональных данных Организатором и его представителями осуществляется в соответствии с действующим законодательством Российской Федерации.
+            </p>
+            <p class="modal__paragraph">
+                Согласие предоставляется Организатору мной бессрочно. Мне известно мое право на удаление своих персональных данных. Я проинформирован о том, что Согласие может быть отозвано в любой момент путем:
+            </p>
+            <p class="modal__paragraph">
+                -	направления письменного уведомления на адрес Организатора;
+            </p>
+            <p class="modal__paragraph">
+                -	направления электронного письма на адрес: 
+            </p>
+            <p class="modal__paragraph">
+                -	Участием в Розыгрыше я дают свое Согласие на размещение своих имени, фамилии, отчества и изображения (фотографии) в открытом доступе в сети Интернет на сайте самара-я-привит.рф, samadm.ru, а также в печатных и электронных средствах массовой информации, сетевых изданиях, в средствах массового распространения информации, включая (без ограничений) Instagram, «ВКонтакте», Facebook, «Одноклассники».
+            </p>
+        </div>
+    </div>
+    <div class="modal modal__request">
+        <div class="modal__content">
+            <button class="modal__close" type="button"></button>
+            <h2 class="modal__title">Спасибо ваша заявка успешно отправлена</h2>
+            <p class="modal__paragraph">
+                В ближайшее время вам на почту придет сообщение с дальнейшей информацией
+            </p>
+            <button class="button modal__continue-button">Продолжить</button>
+        </div>
+    </div>
+    <div class="modal modal__partnership">
+        <div class="modal__content">
+            <button class="modal__close" type="button"></button>
+            <h2 class="modal__title">Как стать партнером?</h2>
+            <p class="modal__paragraph">
+                 Организатор проведения акции Самарская региональная общественная организация «За информационное общество». <strong>Адрес: Самара, ул. Ярмарочная, 55, 3 этаж.</strong>
+            </p>
+            <p class="modal__paragraph">
+                Телефон для справок <strong>3311111</strong>, добавочный <strong>401</strong>
+            </p>
+            <p class="modal__paragraph">
+                Все отчеты о привлеченных и потраченных средствах будут опубликованы на сайте после розыгрыша призов и подведения итогов в течение 10 дней.
+            </p>
+            <p class="modal__paragraph">
+                 Перечислить пожертвование на акцию можно по следующим реквизитам.
+            </p>
+            <ul class="modal__list info">
+                <li class="info__item">
+                    Самарская региональная общественная организация «За информационное общество» (СРОО «За информационное общество»
+                </li>
+                <li class="info__item">
+                    ИНН/КПП 6315990088/631501001
+                </li>
+                <li class="info__item">
+                    ОГРН 1116300003401
+                </li>
+                <li class="info__item">
+                    Расчетный счет: 40703810103000
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
